@@ -1,7 +1,7 @@
 Summary:        Various mail-related perl modules
 Name:           perl-MailTools
 Version:        2.12
-Release:        1.1%{?dist}
+Release:        2%{?dist}
 License:        GPL+ or Artistic
 Group:          Development/Libraries
 URL:            http://search.cpan.org/dist/MailTools/
@@ -103,6 +103,9 @@ make test TEST_FILES="xt/*.t"
 %{_mandir}/man3/Mail::Util.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.12-2
+- Mass rebuild 2013-12-27
+
 * Wed Aug 07 2013 Petr Šabata <contyk@redhat.com> - 2.12-1.1
 - Add some missing built-time dependencies
 - Fix a bogus date in changelog
